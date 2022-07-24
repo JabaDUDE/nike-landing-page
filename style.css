@@ -1,0 +1,23 @@
+.infinity-reacts {
+  height: 400px;
+  width: 325px;
+}
+.shoe-div {
+  text-align: center;
+}
+.running-price {
+  color: gray;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+button {
+  display: inline-block;
+}
+section {
+  margin-top: 30px;
+}
