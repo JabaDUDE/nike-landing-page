@@ -16,10 +16,17 @@
 }
 .btn {
   width: 75%;
+  border: 1px solid #dcdcdc !important;
+}
+.btn:hover {
+  border: 1px solid black !important;
 }
 section {
   margin-top: 25px;
 }
 .carousel-item img {
   height: 350px;
+}
+.size-chart {
+  margin-top: 10px;
 }
