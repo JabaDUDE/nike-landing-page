@@ -1,10 +1,4 @@
-.infinity-reacts {
-  height: 400px;
-  width: 325px;
-}
-.shoe-div {
-  text-align: center;
-}
+/*PHONE SIZE*/
 .running-price {
   color: gray;
 }
@@ -29,4 +23,12 @@ section {
 }
 .size-chart {
   margin-top: 10px;
+}
+/*TABLET SIZE*/
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 400px !important;
+    width: 400px !important;
+    margin: 0 auto !important;
+  }
 }
