@@ -9,7 +9,6 @@
   gap: 10px;
 }
 .btn {
-  width: 75%;
   border: 1px solid #dcdcdc !important;
 }
 .btn:hover {
@@ -47,4 +46,17 @@ section {
 }
 @media (min-width: 1400px) {
   /*TODO: change positioning of size chart so it doesn't stray too far and becomes bigger*/
+  .carousel-item img {
+    height: 500px !important;
+    width: 500px !important;
+    margin: 0 auto !important;
+  }
+  .button-group {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .size-chart {
+    width: 350px !important;
+  }
 }
