@@ -38,10 +38,13 @@ section {
     float: right;
   }
   .carousel {
-    width: 75%;
+    width: 70%;
     float: left;
   }
   .row {
     height: 50px;
   }
+}
+@media (min-width: 1400px) {
+  /*TODO: change positioning of size chart so it doesn't stray too far and becomes bigger*/
 }
