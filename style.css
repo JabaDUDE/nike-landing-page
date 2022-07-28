@@ -34,4 +34,14 @@ section {
 }
 /*DESKTOP SIZE*/
 @media (min-width: 992px) {
+  .size-and-button {
+    float: right;
+  }
+  .carousel {
+    width: 75%;
+    float: left;
+  }
+  .row {
+    height: 50px;
+  }
 }
