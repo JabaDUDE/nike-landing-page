@@ -183,7 +183,13 @@
             </div>
           </div>
           <div class="button-group">
-            <button class="btn btn-outline-dark btn-lg">Add to Bag</button>
+            <button
+              class="btn btn-outline-dark btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#addCartModal"
+            >
+              Add to Bag
+            </button>
             <button
               type="button"
               class="btn btn-lg btn-dark"
@@ -209,7 +215,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="favoritesModalLabel">Nice!</h5>
+              <h5 class="modal-title" id="favoritesModalLabel">I'm sorry!</h5>
               <button
                 type="button"
                 class="close"
@@ -225,7 +231,42 @@
             <div class="modal-footer">
               <button
                 type="button"
-                class="btn btn-primary"
+                class="btn btn-secondary
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="addCartModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="addCartLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addCartLabel">I'm sorry!</h5>
+              <button
+                type="button"
+                class="close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">We are currently out of this product!</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
                 Close
